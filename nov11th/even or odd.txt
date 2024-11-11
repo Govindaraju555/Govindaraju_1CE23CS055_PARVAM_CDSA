@@ -1,0 +1,19 @@
+even or odd:
+
+#include <stdio.h>
+int main()
+{
+    int x,i;
+    printf("Enter the value:");
+    scanf("%d",&x);
+    if(x%2==0)
+    {
+        printf("input value is even:");
+    
+    }
+    else{
+        printf("input value is odd:");
+        
+    }
+    return 0;
+}

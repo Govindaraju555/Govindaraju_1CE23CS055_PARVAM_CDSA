@@ -1,0 +1,16 @@
+enter the all digit numbers:
+
+#include<stdio.h>
+int main()
+{
+    int i, result, sum=0,num,digit;
+    printf("enter a number...");
+    scanf("%d",&num);
+    while(num>0){
+        digit=num%10;
+        sum=sum+digit;
+        printf("num: %d digit: %d sum: %d \n",num ,digit,sum);
+        num=num/10;
+    }
+    printf("\n\nsum is:%d",sum);
+    }
